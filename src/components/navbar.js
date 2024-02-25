@@ -7,8 +7,8 @@ const Navigation = () => {
     <div className="">
       <nav class="flex justify-between items-center bg-transparent text-gray py-4 px-6 mbl:justify-center">
         <div class="text-lg font-bold">
-          <Link to="/" class="hover:text-gray-400 font-semibold mbl:hidden cursor-pointer">
-            {`<  />`}
+          <Link to="/" class="hover:text-gray-400  mbl:hidden cursor-pointer font-bold">
+            {`</>`}
           </Link>
         </div>
         <ul class="flex mbl:gap-16">

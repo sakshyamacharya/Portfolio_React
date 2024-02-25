@@ -16,16 +16,18 @@ function Project() {
         {/* First Card */}
 
         <div className="flex w-full items-center justify-between rounded-[30px] bg-[#FFF3DE] mbl:block">
-          <div className="w-1/2 p-20 flex flex-col gap-10 mbl:w-full mbl:p-6 mbl:gap-4">
+          <div className="w-1/2 px-20 flex flex-col gap-10 mbl:w-full mbl:p-6 mbl:gap-4">
             <h1 className="font-bold text-[40px] mbl:text-[18px]">Humtto</h1>
             <div>
-              <p className="text-[18px] opacity-[80%] mbl:text-[16px] ">
-                In collaboration with my talented group members – Solomon
-                Silwal, Pramod Giri, Aryan Malla, and Bibek Sapkota – we
-                successfully conceptualized and executed Smart School Bus
-                Monitoring System as part of our Innovation Project course. Our
-                innovative solution aimed to enhance the safety and efficiency
-                of school transportation by incorporating advanced technology.
+              <p className="text-[18px] text-justify opacity-[80%] mbl:text-[16px] ">
+              Capturing the essence of adventure with Humtto Outdoor Product was a thrilling experience.
+               This partnership not only highlights the quality and style of Humtto's products but also
+                the spirit of exploration they express.
+                <br/>
+                <br/>
+                Grateful for the opportunity to collaborate with Humtto Outdoor Products through TWB 
+                Creatives Marketing Agency, I consider myself fortunate to have played a pivotal role 
+                in showcasing their exceptional outdoor shoes and clothing.
               </p>
               <button
                 className="my-3 inline-block px-4 py-2 text-white bg-[#D2B687] rounded-lg shadow-md focus:ring-opacity-50 font-bold"
@@ -39,7 +41,7 @@ function Project() {
             <img
               src={humtto}
               alt=""
-              className="w-full h-full rounded-[16px] object-cover"
+              className="w-full h-full mbl:rounded-[16px] object-cover"
             />
           </div>
         </div>
@@ -49,7 +51,7 @@ function Project() {
           <h1 className="font-bold text-[40px] mbl:text-[18px] mbl:my-3">
             Smart School Bus Monitoring System
           </h1>
-          <p className="text-[18px] opacity-[80%]">
+          <p className="text-[18px] text-justify opacity-[80%]">
             In collaboration with my talented group members – Solomon Silwal,
             Pramod Giri, Aryan Malla, and Bibek Sapkota – we successfully
             conceptualized and executed Smart School Bus Monitoring System as
@@ -68,12 +70,12 @@ function Project() {
         {/* Third Card */}
 
         <div className="flex w-full items-center justify-between rounded-[30px] bg-[#FFF3DE] mbl:block">
-          <div className="w-1/2 p-20 flex flex-col gap-10 mbl:w-full mbl:p-6 mbl:gap-4">
-            <h1 className="font-bold text-[40px] mbl:text-[18px]">
+          <div className="w-1/2 px-20 flex flex-col gap-10 mbl:w-full mbl:p-6 mbl:gap-4">
+            <h1 className="font-bold text-[40px] mbl:text-[20px]">
               WP Consultancy Project
             </h1>
             <div>
-              <p className="text-[18px] opacity-[80%] mbl:text-[16px] ">
+              <p className="text-[18px] text-justify opacity-[80%] mbl:text-[16px] ">
                 Presenting Education Tree Global, my WordPress frontend project.
                 Explore my WordPress development in action.
               </p>
@@ -85,11 +87,11 @@ function Project() {
               </button>
             </div>
           </div>
-          <div className="w-[40%] overflow-hidden mbl:w-[100%] ">
+          <div className="w-[40%] overflow-hidden mbl:w-[100%] border">
             <img
               src={wordPress}
               alt=""
-              className="w-full h-full rounded-[16px] object-cover"
+              className="w-full h-full mbl:rounded-[16px] object-cover"
             />
           </div>
         </div>

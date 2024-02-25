@@ -29,7 +29,7 @@ const Home = () => {
               />
             </span>
           </h1>
-          <p class="text-gray-70 text-lg mb-8 opacity-[.80] mt-4 mbl:text-[16px]">
+          <p class="text-gray-70 text-lg text-justify mb-8 opacity-[.80] mt-4 mbl:text-[16px]">
             Hello, I'm Sakshyam Acharya, a dedicated data science student with a
             passion for leveraging data to derive meaningful insights and drive
             informed decision-making. Currently, I contribute to the dynamic
