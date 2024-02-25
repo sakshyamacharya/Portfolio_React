@@ -87,7 +87,7 @@ function Project() {
               </button>
             </div>
           </div>
-          <div className="w-[40%] overflow-hidden mbl:w-[100%] border">
+          <div className="w-[40%] overflow-hidden mbl:w-[100%]">
             <img
               src={wordPress}
               alt=""
