@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import skills from "../../images/Skills.png";
 import Alert from "antd/es/alert";
-// import "antd/es/alert/style/css"; // Import Ant Design Alert CSS
+
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -10,7 +10,7 @@ function Contact() {
     message: "",
   });
 
-  const [showAlert, setShowAlert] = useState(false); // State to control visibility of alert
+  const [showAlert, setShowAlert] = useState(false); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,7 +23,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data:", formData);
-    setShowAlert(true); // Show the alert when form is submitted
+    setShowAlert(true);
     setFormData({
       name: "",
       email: "",
@@ -33,14 +33,14 @@ function Contact() {
 
   return (
     <div className="w-full flex flex-col items-center">
-      {showAlert && ( // Render the alert when showAlert is true
+      {showAlert && ( 
         <Alert
           message="Form Status"
           description="Your message has been received."
           type="success"
           showIcon
-          // className="bg-[#080]"
-          onClose={() => setShowAlert(false)} // Handle close event
+        
+          onClose={() => setShowAlert(false)} 
           closable
         />
       )}
@@ -107,7 +107,7 @@ function Contact() {
       </div>
       <div>
         <h1 className="text-center mt-20 text-[32px] font-bold">
-          Tools and Technologies
+          Expertise
         </h1>
         <img src={skills} alt="" />
       </div>
